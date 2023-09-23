@@ -1,0 +1,6 @@
+<launch>
+    
+    <node pkg='maincode' type='ros_rc.py' name='node_rc' output='screen' />
+    <node pkg='maincode' type='ros_timer_lawnmower.py' name='node_timer_lawnmower' output='screen'/>
+    
+</launch>
