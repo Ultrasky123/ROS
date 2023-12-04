@@ -1,0 +1,8 @@
+prefix=/home/rostu/silver_ws/install
+
+Name: maincode
+Description: Description of maincode
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

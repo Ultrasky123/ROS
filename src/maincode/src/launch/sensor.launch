@@ -1,0 +1,8 @@
+<launch>
+    <group ns='sensor'>
+        <node pkg='rosserial_python' type='ardu_serial.py' name='node_arduino' output='screen' />
+    </group>
+    <group ns='sensor'>
+        <node pkg='maincode' type='node_sensor.py' name='node_buffer' output='screen'/>
+    </group>
+</launch>
